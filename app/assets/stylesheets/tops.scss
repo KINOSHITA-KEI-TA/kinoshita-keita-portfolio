@@ -1,0 +1,22 @@
+*{
+  font-family: 'Amatic SC', cursive;
+}
+.head{
+  &__head-box{
+    display: flex;
+    justify-content: space-between;
+    &__head-title{
+      margin: 10px 10px 0px 20px;
+      font-size: 70px;
+    }
+    &__head-content{
+      display: flex;
+      align-items: flex-end;
+      font-size: 25px;
+      &__head-mark{
+        margin: 10px 15px 0px 10px;
+        text-decoration: none;
+      }
+    }
+  }
+}
