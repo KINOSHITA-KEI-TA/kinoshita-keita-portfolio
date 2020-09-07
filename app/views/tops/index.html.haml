@@ -18,10 +18,40 @@
   .top-body
     .top-image
       .top-image-a
-        = image_tag '/assets/name.jpg', alt: '名前画像', height: '300', width: '100%', class: 'image-top' 
+        = image_tag '/assets/name.jpg', alt: '名前画像', height: '400', width: '100%', class: 'image-top' 
       .top-image-a
-        = image_tag '/assets/you-are.jpg', alt: 'YOU-ARE画像', height: '300', width: '100%', class: 'image-top' 
+        = image_tag '/assets/you-are.jpg', alt: 'YOU-ARE画像', height: '400', width: '100%', class: 'image-top' 
     .top-content
 .Body
-
+  .body-box
+    .body-box__body-title
+      %h2 ProFile〜私は〜
+      .body-box__body-title__profile
+      .body-box__body-title__history-box
+        ＜HiStory〜履歴〜＞
+        .body-box__body-title__history-box__history-content
+          %ul.historys
+            %li.history 2012.4 ~ 2016.3 大正大学 卒業
+            %li.history 2016.4 ~ 2020.4 工業備品メーカー 営業として 勤務
+            %li.history 2020.6 ~ 2020.9 プログラミングスクール・テックキャンプ80期 学習
+      .body-box__body-title__skill-box
+        ＜SKiLL〜技術〜＞
+        %ul.skills
+          %li.skill ・HTML
+          %li.skill ・CSS
+          %li.skill ・Ruby
+          %li.skill ・Rails
+          %li.skill ・JavaScript
+          %li.skill ・jQuery​
+          %li.skill ・aws
+          %li.skill ・heroku
+          %li.skill ・WordPress
+  .portfolio-box
+    Portfolio
+    .portfolio-box__portfolio-title
+      .portfolio-box__portfolio-content
+        = image_tag '/assets/you-are-image.png', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
+    .portfolio-box__portfolio-title
+      .portfolio-box__portfolio-content
+        = image_tag '/assets/furima-image.jpg', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
 .Footer
