@@ -2,51 +2,6 @@
   font-family: 'Amatic SC', cursive;
   
 }
-// .top-image {
-//   position: relative;
-//   margin: 0;
-//   padding: 0;
-// }
-// .top-image .image-top {
-//   position: relative;
-//   height: 100%;
-// }
-// .top-image .item::before {
-//   display: block;
-//   padding-top: 39%;
-//   content: "";
-// }
-// .top-image .image-top .image {
-//   position: relative;
-//   overflow: hidden;
-// }
-// .top-image .image-top　image_tag {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   right: 0;
-//   left: 0;
-//   margin: auto;
-//   width: 100%;
-// }
-// .top-image > .slick-list,
-// .top-image > .slick-list > .slick-track,
-// .top-image > .slick-list > .slick-track > .slick-slide > div {
-//   position: relative;
-//   height: 100%;
-// }
-// .slide-animation{
-//   animation: fadezoom 8s 0s forwards;
-// }
-// @keyframes fadezoom {
-// 0% {
-//   transform: scale(1);
-// }
-// 100% {
-//   transform: scale(1.2);
-// }
-// }
-
 
 
 
@@ -73,8 +28,90 @@
     }
   }
 }
-.body-box__body-title__history-box{
-  background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
+
+.body-box{
+  &__body-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  }
+  .body-box__body-title__history-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .body-box__body-title__skill-box{
+    &__skill-content{
+      display: flex;
+    }
+  }
+}
+.portfolio{
+  text-align: center;
+  font-size:50px ;
+}
+#title4{
+  border-bottom: solid 2px black;
+}
+.portfolio-box{
+  display: flex;
+  justify-content: center;
+  &__portfolio-content{
+    margin: 10px 10px 0px 10px;
+  }
+}
+// .body-box__body-title__history-box {
+//   background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
+// }
+// .body-box__body-title__skill-box{
+//   background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
+// }
+
+// Historyフェード
+.body-box__body-title__history-box label{
+  cursor :pointer;
+}
+.body-box__body-title__history-box label:hover {
+  background: #efefef;
+}
+.body-box__body-title__history-box input {
+  display: none;
+}
+.body-box__body-title__history-box__history-content{
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.body-box__body-title__history-box input:checked ~ .body-box__body-title__history-box__history-content{
+  padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+// Skillフェード
+.body-box__body-title__skill-box label{
+  cursor :pointer;
+}
+.body-box__body-title__skill-box label:hover{
+  background: #efefef;
+}
+.body-box__body-title__skill-box input{
+  display: none;
+}
+.body-box__body-title__skill-box__skill-content{
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.body-box__body-title__skill-box input:checked ~ .body-box__body-title__skill-box__skill-content{
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
 }
 
 

@@ -25,33 +25,43 @@
 .Body
   .body-box
     .body-box__body-title
-      %h2 ProFile〜私は〜
+      %h2 ProFile
       .body-box__body-title__profile
+        %p ・NAME：木下啓太
+        %p ・Date：1993.8.3
+        %p ・From：東京都
       .body-box__body-title__history-box
-        ＜HiStory〜履歴〜＞
+        %label{for: "label1"} ＜HiStory〜履歴〜＞
+        %input#label1{type: "checkbox"}/
         .body-box__body-title__history-box__history-content
           %ul.historys
             %li.history 2012.4 ~ 2016.3 大正大学 卒業
             %li.history 2016.4 ~ 2020.4 工業備品メーカー 営業として 勤務
             %li.history 2020.6 ~ 2020.9 プログラミングスクール・テックキャンプ80期 学習
       .body-box__body-title__skill-box
-        ＜SKiLL〜技術〜＞
-        %ul.skills
-          %li.skill ・HTML
-          %li.skill ・CSS
-          %li.skill ・Ruby
-          %li.skill ・Rails
-          %li.skill ・JavaScript
-          %li.skill ・jQuery​
-          %li.skill ・aws
-          %li.skill ・heroku
-          %li.skill ・WordPress
-  .portfolio-box
-    Portfolio
-    .portfolio-box__portfolio-title
-      .portfolio-box__portfolio-content
-        = image_tag '/assets/you-are-image.png', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
-    .portfolio-box__portfolio-title
-      .portfolio-box__portfolio-content
-        = image_tag '/assets/furima-image.jpg', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
+        %label{for: "label2"} ＜SKiLL〜技術〜＞
+        %input#label2{type: "checkbox"}/
+        .body-box__body-title__skill-box__skill-content
+          %ul.skills
+            %li.skill ・HTML
+            %li.skill ・CSS
+            %li.skill ・Ruby
+            %li.skill ・Rails
+            %li.skill ・JavaScript 
+          %ul.skills
+            %li.skill ・jQuery​
+            %li.skill ・aws
+            %li.skill ・heroku
+            %li.skill ・WordPress
+  .portfolio
+    %p#title4 Portfolio
+    .portfolio-box
+      .portfolio-box__portfolio-title
+        .portfolio-box__portfolio-content
+          = link_to "https://you-are.herokuapp.com/",class:"image",target:"_blank" do
+            = image_tag '/assets/you-are-image.png', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
+      .portfolio-box__portfolio-title
+        .portfolio-box__portfolio-content
+          = link_to "http://54.249.185.167/",class:"image",target:"_blank" do
+            = image_tag '/assets/furima-image.jpg', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
 .Footer
