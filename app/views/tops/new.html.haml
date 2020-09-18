@@ -1,0 +1,13 @@
+%h3#Contact
+  %p#Page Contact Page
+  .Contact-box
+    = form_with(model: @top, html: {class: "Contact-form"}, local: true) do |form|
+      .Contact-new
+        %p Contact Form
+        = form.text_field :name, class:'Contact-new__contents-name', placeholder: "Name"
+        = form.text_field :email,class:'Contact-new__contents-mail',placeholder:"E-mail"
+        = form.text_area :text, class:'Contact-new__contents-text', placeholder: "", rows: "200"
+        = form.submit "SeNd",class:'Contact-new__inputSEND'
+  .Back-btn 
+    = link_to root_path ,class:"back-btn" do
+      BaCk
