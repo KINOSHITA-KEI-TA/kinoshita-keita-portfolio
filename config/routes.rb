@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'tops/index'
   root "tops#index"
+  resources :tops,only:[:new,:create]
 end
