@@ -28,7 +28,9 @@
     }
   }
 }
-
+.body{
+  background-color: #c9c8c885;
+}
 .body-box{
   &__body-title{
   display: flex;
@@ -79,7 +81,7 @@
   cursor :pointer;
 }
 .body-box__body-title__history-box label:hover {
-  background: #efefef;
+  background: #c9c8c885;
 }
 .body-box__body-title__history-box input {
   display: none;
@@ -102,7 +104,7 @@
   cursor :pointer;
 }
 .body-box__body-title__skill-box label:hover{
-  background: #efefef;
+  background:#c9c8c885;
 }
 .body-box__body-title__skill-box input{
   display: none;

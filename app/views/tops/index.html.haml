@@ -24,6 +24,7 @@
       .top-image-a
         = image_tag '/assets/CoCoA2.jpg', alt: 'CoCoA画像', height: '400', width: '100%', class: 'image-top' 
     .top-content
+%body.body
 .Body
   .body-box
     .body-box__body-title
@@ -31,7 +32,7 @@
       .body-box__body-title__profile
         %p ・NAME：木下啓太
         %p ・Date：1993.8.3
-        %p ・From：東京都
+        %p ・From：Tokyo
       .body-box__body-title__history-box
         %label{for: "label1"} ＜HiStory〜職歴〜＞
         %input#label1{type: "checkbox"}/
