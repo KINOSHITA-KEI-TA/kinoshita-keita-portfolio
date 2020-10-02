@@ -33,6 +33,7 @@
         %p ・NAME：木下啓太
         %p ・Date：1993.8.3
         %p ・From：Tokyo
+        %p ・Hobby：プロレス観戦
       .body-box__body-title__history-box
         %label{for: "label1"} ＜HiStory〜職歴〜＞
         %input#label1{type: "checkbox"}/
@@ -41,22 +42,39 @@
             %li.history 2012.4 ~ 2016.3 大正大学 卒業
             %li.history 2016.4 ~ 2020.4 工業備品メーカー 営業として 勤務
             %li.history 2020.6 ~ 2020.9 プログラミングスクール・テックキャンプ80期 学習
-      .body-box__body-title__skill-box
-        %label{for: "label2"} ＜SKiLL〜技術〜＞
-        %input#label2{type: "checkbox"}/
-        .body-box__body-title__skill-box__skill-content
-          %ul.skills
-            %li.skill ・HTML
-            %li.skill ・CSS
-            %li.skill ・Ruby
-            %li.skill ・Rails
-            %li.skill ・JavaScript 
-          %ul.skills
-            %li.skill ・jQuery​
-            %li.skill ・Python
-            %li.skill ・aws
-            %li.skill ・heroku
-            %li.skill ・WordPress
+      .Skill-body
+        .body-box__body-title__skill-box
+          %label{for: "label2"} ＜SKiLL〜技術〜＞
+          %input#label2{type: "checkbox"}/
+          .body-box__body-title__skill-box__skill-content
+            %ul.skills
+              %li.skill ・HTML
+              %li.skill ・CSS
+              %li.skill ・Ruby
+              %li.skill ・Rails
+              %li.skill ・JavaScript 
+            %ul.skills
+              %li.skill ・jQuery​
+              %li.skill ・Python
+              %li.skill ・aws
+              %li.skill ・heroku
+              %li.skill ・WordPress
+        .body-box__body-title__certification-box
+          %label{for: "label3"} ＜Certification〜資格〜＞
+          %input#label3{type: "checkbox"}/
+          .body-box__body-title__certification-box__certification-content
+            %ul.certifications
+              %li.certification ・普通自動車免許
+              %li.certification ・普通自動二輪免許
+              %li.certification ・eco検定
+              %li.certification ・秘書検定
+              %li.certification ・販売士
+            %ul.certifications
+              %li.certification ・ビジネス実務マナー
+              %li.certification ・アシスタントホスピタリティ・コーディネータ
+              %li.certification ・危険物取扱者乙種4類
+              %li.certification ・フォークリフト運転技能
+              %li.certification ・BBQインストラクター
   .portfolio
     %p#title4 Portfolio
     .portfolio-box
@@ -71,7 +89,7 @@
       .portfolio-box__portfolio-title
         .portfolio-box__portfolio-content
           = link_to "#",class:"image",target:"_blank" do
-            = image_tag '/assets/CoCoA-index.png', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
+            = image_tag '/assets/CoCoA-index-2.jpg', alt: 'アプリ画像', height: '300px', width: '300px', class: 'image-top' 
 .Footer
   Copyright YOU ARE 2020.
   %a.fab.fa-github-square{href: "https://github.com/KINOSHITA-KEI-TA"}
