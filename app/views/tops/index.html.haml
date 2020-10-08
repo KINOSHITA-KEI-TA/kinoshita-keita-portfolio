@@ -4,8 +4,16 @@
       My Portfolio
     .head__head-box__head-content
       .head__head-box__head-content__head-mark
-      = link_to "#",class:"head__head-box__head-content__head-mark" do
-        Profile
+        #js-show-popup
+        = link_to "#",class:"head__head-box__head-content__head-mark" do
+          Profile
+        #js-popup.popup
+          .popup-inner
+            #js-close-btn.close-btn
+              %i.fas.fa-times
+            %a{href: "#"}
+              %img{alt: "ポップアップ画像", src: "/assets/popup.jpg"}
+          #js-black-bg.black-background              
       .head__head-box__head-content__head-mark
       = link_to "#",class:"head__head-box__head-content__head-mark" do
         Portfolio
@@ -24,6 +32,15 @@
       .top-image-a
         = image_tag '/assets/CoCoA2.jpg', alt: 'CoCoA画像', height: '400', width: '100%', class: 'image-top' 
     .top-content
+
+#js-popup.popup
+  .popup-inner
+    #js-close-btn.close-btn
+      %i.fas.fa-times
+    %a{href: "#"}
+      %img{alt: "ポップアップ画像", src: "/assets/popup.jpg"}/
+  #js-black-bg.black-background
+
 %body.body
 .Body
   .body-box
