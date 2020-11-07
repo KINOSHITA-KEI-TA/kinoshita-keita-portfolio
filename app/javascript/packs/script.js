@@ -13,6 +13,21 @@ new Vue({
   }
 })
 
+// Vue.component('open-modal',{
+//   template : `
+//   <div id="overlay" style="display: none;">
+//     <div id="content">
+//       <img alt="ポップアップ画像" height="300" src="/assets/popup.jpg" width="500" class="image-pop"> 
+//       <button>×</button>
+//     </div>
+//   </div>
+//     `,
+//     methods :{
+//     clickEvent: function(){
+//       this.$emit('from-child')
+//      }
+//   }
+// })
 
 
 
