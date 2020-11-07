@@ -3,17 +3,12 @@
     .head__head-box__head-title
       My Portfolio
     .head__head-box__head-content
-      .head__head-box__head-content__head-mark
-        #js-show-popup
-        = link_to "#",class:"head__head-box__head-content__head-mark" do
-          Profile
-        #js-popup.popup
-          .popup-inner
-            #js-close-btn.close-btn
-              %i.fas.fa-times
-            %a{href: "#"}
-              %img{alt: "ポップアップ画像", src: "/assets/popup.jpg"}
-          #js-black-bg.black-background              
+      #app.head__head-box__head-content__head-mark
+        %button{"v-on:click" => "openModal"} Profile
+        #overlay{"v-show" => "showContent"}
+          #content
+            %img{alt: "ポップアップ画像", src: "/assets/popup.jpg",height: '300', width: '500'}/
+            %button{"v-on:click" => "closeModal"} Close
       .head__head-box__head-content__head-mark
       = link_to "#title4",class:"head__head-box__head-content__head-mark" do
         Portfolio
@@ -35,14 +30,6 @@
         = link_to "#"do
           = image_tag '/assets/CoCoA2.jpg', alt: 'CoCoA画像', height: '400', width: '100%', class: 'image-top' 
     .top-content
-
-#js-popup.popup
-  .popup-inner
-    #js-close-btn.close-btn
-      %i.fas.fa-times
-    %a{href: "#"}
-      %img{alt: "ポップアップ画像", src: "/assets/popup.jpg"}/
-  #js-black-bg.black-background
 
 %body.body
 .Body
