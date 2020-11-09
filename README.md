@@ -35,7 +35,7 @@ Overview
 
 
 ## デモ動画
-<a href="https://gyazo.com/cb684c1349a7ff7ed5a698a57dfc1a2f"><img src="https://i.gyazo.com/cb684c1349a7ff7ed5a698a57dfc1a2f.gif" alt="Image from Gyazo" width="910"/></a>
+<a href="https://gyazo.com/cb684c1349a7ff7ed5a698a57dfc1a2f"><img src="https://i.gyazo.com/cb684c1349a7ff7ed5a698a57dfc1a2f.gif" alt="Image from Gyazo" width="1000"/></a>
 
 
 ## Licence
