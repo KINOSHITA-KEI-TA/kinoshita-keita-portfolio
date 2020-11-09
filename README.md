@@ -1,24 +1,42 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Name
+app
+====
 
-Things you may want to cover:
+Overview
 
-* Ruby version
 
-* System dependencies
+## 概要
+<ul>
+  <li>アプリ</li>
+</ul>
 
-* Configuration
+## 制作意図
+・ポートフォリオサイト
 
-* Database creation
 
-* Database initialization
+## 工夫したところ
+<ul>
+  <li>slick機能</li>
+  <li>モーダル表示</li>
+</ul>
 
-* How to run the test suite
+## 開発環境
+・javascript/vue.js/Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code/
 
-* Services (job queues, cache servers, search engines, etc.)
+## 今後実装したい機能
+<ul>
+  <li>動的表現の追加</li>
+</ul>
 
-* Deployment instructions
 
-* ...
+## デモ画像①
+
+
+## デモ動画
+
+
+
+## Licence
+Copyright YOU ARE 2020.
