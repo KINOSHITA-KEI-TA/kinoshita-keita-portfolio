@@ -20,6 +20,7 @@ Overview
 <ul>
   <li>slick機能</li>
   <li>モーダル表示</li>
+  <li>フェード効果</li>
 </ul>
 
 ## 開発環境
