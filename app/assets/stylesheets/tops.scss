@@ -217,3 +217,18 @@
     z-index:10; 
   }
 }
+
+
+
+.fade_off {
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+
+.fade_on {
+  opacity: 1;
+}
