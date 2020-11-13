@@ -1,7 +1,7 @@
 # README
 
 Name
-app
+KOTORI
 ====
 
 Overview
@@ -9,7 +9,7 @@ Overview
 
 ## 概要
 <ul>
-  <li>アプリ</li>
+  <li>個人の紹介・アプリ紹介の為、制作。</li>
 </ul>
 
 ## 制作意図
