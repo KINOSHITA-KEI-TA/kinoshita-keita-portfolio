@@ -52,16 +52,18 @@
       .Skill-body
         .body-box__body-title__skill-box
           %label{for: "label2"} ＜SKiLL〜技術〜＞
-          %input#label2{type: "checkbox"}/
+          -# %input#label2{type: "checkbox"}/
           .body-box__body-title__skill-box__skill-content
-            %ul.skills
+            %ul.sample.fade_off.skills
               %li.skill ・HTML
               %li.skill ・Haml
               %li.skill ・CSS
+              %li.skill ・SCSS
               %li.skill ・Ruby
               %li.skill ・Rails
               %li.skill ・JavaScript 
-            %ul.skills
+            %ul.sample.fade_off.skills
+              %li.skill ・vue.js
               %li.skill ・jQuery​
               %li.skill ・Python（学習中）
               %li.skill ・AWS
@@ -70,15 +72,15 @@
               %li.skill ・PHP（学習中）
         .body-box__body-title__certification-box
           %label{for: "label3"} ＜Certification〜資格〜＞
-          %input#label3{type: "checkbox"}/
+          -# %input#label3{type: "checkbox"}/
           .body-box__body-title__certification-box__certification-content
-            %ul.certifications
+            %ul.sample.fade_off.certifications
               %li.certification ・普通自動車免許
               %li.certification ・普通自動二輪免許
               %li.certification ・eco検定
               %li.certification ・秘書検定
               %li.certification ・販売士
-            %ul.certifications
+            %ul.sample.fade_off.certifications
               %li.certification ・ビジネス実務マナー
               %li.certification ・アシスタントホスピタリティ・コーディネータ
               %li.certification ・危険物取扱者乙種4類
@@ -86,7 +88,7 @@
               %li.certification ・BBQインストラクター
   .portfolio
     %p#title4 Portfolio
-    %ul#sample.fade_off.portfolio-box
+    %ul.sample.fade_off.portfolio-box
       %li.portfolio-box__portfolio-title
         .portfolio-box__portfolio-content
           = link_to "https://you-are.herokuapp.com/",class:"image",target:"_blank" do

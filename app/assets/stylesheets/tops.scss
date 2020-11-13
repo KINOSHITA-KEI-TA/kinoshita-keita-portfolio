@@ -117,23 +117,23 @@
 }
 
 // Skillフェード
-.body-box__body-title__skill-box label{
-  cursor :pointer;
-  margin-right: 10px;
-}
-.body-box__body-title__skill-box label:hover{
-  background:#c9c8c885;
-}
-.body-box__body-title__skill-box input{
-  display: none;
-}
-.body-box__body-title__skill-box__skill-content{
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.8s;
-}
+// .body-box__body-title__skill-box label{
+//   cursor :pointer;
+//   margin-right: 10px;
+// }
+// .body-box__body-title__skill-box label:hover{
+//   background:#c9c8c885;
+// }
+// .body-box__body-title__skill-box input{
+//   display: none;
+// }
+// .body-box__body-title__skill-box__skill-content{
+//   height: 0;
+//   padding: 0;
+//   overflow: hidden;
+//   opacity: 0;
+//   transition: 0.8s;
+// }
 .body-box__body-title__skill-box input:checked ~ .body-box__body-title__skill-box__skill-content{
   padding: 10px 0;
   height: auto;
@@ -141,28 +141,28 @@
 }
 
 // certificationフェード
-.body-box__body-title__certification-box label{
-  cursor :pointer;
-  margin-left: 10px;
-}
-.body-box__body-title__certification-box label:hover{
-  background:#c9c8c885;
-}
-.body-box__body-title__certification-box input{
-  display: none;
-}
-.body-box__body-title__certification-box__certification-content{
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.8s;
-}
-.body-box__body-title__certification-box input:checked ~ .body-box__body-title__certification-box__certification-content{
-  padding: 10px 0;
-  height: auto;
-  opacity: 1;
-}
+// .body-box__body-title__certification-box label{
+//   cursor :pointer;
+//   margin-left: 10px;
+// }
+// .body-box__body-title__certification-box label:hover{
+//   background:#c9c8c885;
+// }
+// .body-box__body-title__certification-box input{
+//   display: none;
+// }
+// .body-box__body-title__certification-box__certification-content{
+//   height: 0;
+//   padding: 0;
+//   overflow: hidden;
+//   opacity: 0;
+//   transition: 0.8s;
+// }
+// .body-box__body-title__certification-box input:checked ~ .body-box__body-title__certification-box__certification-content{
+//   padding: 10px 0;
+//   height: auto;
+//   opacity: 1;
+// }
 .certifications{
   font-size: 20px;
   margin-left: 20px;

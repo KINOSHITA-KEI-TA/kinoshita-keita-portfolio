@@ -11,7 +11,7 @@ $(function() {
 
 $(function(){
   $(window).scroll(function (){
-    $("#sample").each(function(){
+    $(".sample").each(function(){
       var imgPos = $(this).offset().top;
       var scroll = $(window).scrollTop();
       var windowHeight = $(window).height();
