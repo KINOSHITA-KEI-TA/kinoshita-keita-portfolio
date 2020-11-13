@@ -1,7 +1,7 @@
 # README
 
-Name
-KOTORI
+Name：
+My Portfolio
 ====
 
 Overview
