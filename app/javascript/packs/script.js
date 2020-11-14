@@ -1,5 +1,5 @@
 new Vue({
-  el: '.head__head-box__head-content__head-mark',
+  el: '#Profile-m',
   data: {
     showContent: false
   },
