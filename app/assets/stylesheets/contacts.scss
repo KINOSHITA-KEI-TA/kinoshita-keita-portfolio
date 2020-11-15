@@ -57,9 +57,20 @@
     background-color: alert_orange;
   }
 }
-// #p-content{
+#p-content{
+  font-weight: 300;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  width: 30vw;
+  margin: auto;
+  border:solid 1px rgb(112, 111, 111);
+}
 
-// }
+
+
+
+
 #back-model{
   background: 
     radial-gradient(rgb(48, 48, 48) 4px, transparent 5px),
