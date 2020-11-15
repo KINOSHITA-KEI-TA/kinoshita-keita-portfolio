@@ -1,6 +1,6 @@
 #Contact{
   text-align: center;
-  margin-top: 80px;
+  padding-top: 80px;
 }
 #Page{
   margin-bottom: 10px;
@@ -56,4 +56,18 @@
   .alert {
     background-color: alert_orange;
   }
+}
+// #p-content{
+
+// }
+#back-model{
+  background: 
+    radial-gradient(rgb(48, 48, 48) 4px, transparent 5px),
+    radial-gradient(rgb(48, 48, 48) 4px, transparent 5px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #c2c1c1 90px, #c2c1c1 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #c2c1c1 90px, #c2c1c1 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 55px 49px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }

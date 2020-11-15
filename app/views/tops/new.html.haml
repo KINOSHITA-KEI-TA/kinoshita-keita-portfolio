@@ -1,3 +1,4 @@
+%body#back-model
 %h3#Contact
   %p#Page Contact Page
   .Contact-box
@@ -12,7 +13,7 @@
     = link_to root_path ,class:"back-btn" do
       BaCk
   #Profile-m.head__head-box__head-content__head-mark
-    %p{"v-on:click" => "openModal"} 直接問い合わせはコチラより
+    %p#p-content{"v-on:click" => "openModal"} 直接問い合わせはコチラより
     #overlay{"v-show" => "showContent"}
       #content
         %img{alt: "ポップアップ画像", src: "/assets/popup.jpg",height: '300', width: '500',class:'image-pop'}/
