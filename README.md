@@ -29,14 +29,15 @@ Overview
 ## 今後実装したい機能
 <ul>
   <li>動的表現の追加</li>
+  <li>背景のオリジナリティ化</li>
 </ul>
-
-
-## デモ画像①
 
 
 ## デモ動画
 <a href="https://gyazo.com/c610aaed4abcbf15d314ee1fb41f30fa"><img src="https://i.gyazo.com/c610aaed4abcbf15d314ee1fb41f30fa.gif" alt="Image from Gyazo" width="984"/></a>
+
+
+## デモ画像①
 
 
 ## Licence
