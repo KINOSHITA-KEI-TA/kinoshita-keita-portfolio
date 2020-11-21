@@ -30,6 +30,7 @@ Overview
 <ul>
   <li>動的表現の追加</li>
   <li>背景のオリジナリティ化</li>
+  <li>Email転送</li>
 </ul>
 
 
